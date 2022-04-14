@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom:30px ;
+    margin: auto;
+    background-color: #faf6f5;
+    
+}
+.img-box {
+    margin:60Px auto 0;
+    width: 380px;
+    height: 380px;
+    background-image: url(pexels-photo-821365.jpeg);
+    border-radius: 50%;
+    background-position: 50% 50%;
+    background-size: cover;
+    }
+    .paragraf {
+        
+        margin: auto;
+        width: 615px;
+        height: 200px;
+        text-align: center;
+        position: relative;
+        top: 4px;
+    }
+    .paragraf h1 {
+        font-family: Merriweather, serif !important;
+        font-size: 2.25rem;
+        font-weight: 700;
+        color: black;
+        line-height: 1.1;
+    }
+    .paragraf p {
+        font-family: Montserrat, sans-serif !important;
+        font-size: 1rem;
+        line-height: 1.1;
+        color: black;
+        font-weight: 400;
+    }
+    .boxs {
+        
+        width: 80%;
+        height: 300px;
+        margin: auto;
+        position: relative;
+        top: -51px;
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+        
+    }
+    .box {
+        width: 373px;
+        height: 200px;
+        background-color: #ccb6ac ;
+        margin-left: 20px;
+        text-align: center;
+        padding: 10px;
+        color: white;
+        font-family: Montserrat, sans-serif !important;
+        font-size: 1.25rem;
+        line-height: 1.2;
+    }
+    .box h3 {
+        font-weight: 700;
+        font-family: Montserrat, sans-serif !important;
+        font-size: 1.25rem;
+    }
+    .box p {
+        font-weight: 400;
+        font-family: 'Open Sans',sans-serif;
+    }
